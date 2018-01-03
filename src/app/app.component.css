@@ -1,0 +1,88 @@
+
+.brand {
+	margin: 40px 0px 0px 0px;
+	position:relative; 
+	display: block;
+	/*top: 40px;*/
+}
+
+.brand table {
+	margin-left: 50px;
+	padding: 0px;
+}
+.brand table td {
+    vertical-align: top;
+}
+.logo {
+	width:  100px;
+	height: 100px;
+}
+
+.header {
+	position: absolute;
+	top:13px;
+	display: block;
+	margin-left: 20px;
+}
+
+.brand:hover h1 {
+	color: #fff !important;
+}
+
+.header h1 {
+	transition: color 200ms ease;
+}
+
+.header .spacer {
+	height: 4px;
+	padding: 0;
+	background-color: transparent;
+}
+
+.header a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.header li {
+	text-transform: uppercase;
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+	color: #FFF;
+}
+
+.header li h1, .header li h2 {
+    display: inline-block;
+	padding: 5px 10px 3px 8px;
+	background-color: #222;
+}
+
+.copyright {
+	width: 100%;
+  	margin: 20px 0px 40px 0px;
+}
+
+.copyright li {
+	font-size: 12px;
+    text-transform: uppercase;
+	text-align: left;
+	display: inline-block;
+	padding: 5px 10px 6px 10px;
+	margin: 8px 0px 0px 50px;
+	background-color: #222;
+	color: #fff;
+	list-style: none;
+}
+
+.logoColor {
+	-webkit-transition: 0.1s linear all;
+	-moz-transition: 0.1s linear all;
+	-o-transition: 0.1s linear all;
+	transition: 0.1s linear all;
+	fill: #222;
+}
+
+.brand:hover .logoColor {
+	fill: #333 !important;
+}

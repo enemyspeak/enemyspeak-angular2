@@ -1,23 +1,21 @@
-<h3>
-  Angular 2 Seed
-</h3>
-<nav>
-	<a [routerLink]="['/']">
-    Home
-  </a>
-  |
-	<a [routerLink]="['/about']">
-    About
-  </a>
-  |
-	<a [routerLink]="['/github', 'angular']">
-    Github Repos
-  </a>
-  |
-	<a [routerLink]="['/contact']">
-    Contact Us
-  </a>
-</nav>
+<div class="brand">
+  <table>
+    <tr>
+      <td>
+        <div id="logo" ng-include="'svg/logo.svg'" class="logo"></div>
+      </td>
+      <td>
+        <div id="header" class="header">
+          <ul><a href="/">
+            <li><h1>Kevin Faherty</h1></li>
+            <li class="spacer"></li>
+            <li><h2>Design/Code/Art</h2></li>
+          </a></ul>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
 
 <main>
 	<router-outlet></router-outlet>
@@ -25,5 +23,14 @@
 
 
 <footer>
-  © 2017
+  <hr class="divider">
+  <ul id="contact" class="contact">
+    <li class="icons" *ngFor="let contact of contacts | async">
+      <a target="_blank" id="{{contact.id}" href="{{contact.URL}}"><i class="{{contact.icon}}"></i>{{contact.name}}</a>
+    </li>
+  </ul>
+
+  <ul id="copy" class="copyright">
+    <li id="copyright-notice"><i>&copy;</i>2017</li>
+  </ul>
 </footer>
