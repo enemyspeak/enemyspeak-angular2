@@ -25,7 +25,7 @@
 <footer>
   <hr class="divider">
   <ul id="contact" class="contact">
-    <li class="icons" *ngFor="let contact of contacts | async">
+    <li class="icons" *ngFor="let contact of contacts">
       <a target="_blank" id="{{contact.id}" href="{{contact.URL}}"><i class="{{contact.icon}}"></i>{{contact.name}}</a>
     </li>
   </ul>
