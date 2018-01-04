@@ -1,0 +1,90 @@
+.content {
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+}
+
+.breadcrumb {
+	width: auto;
+   	height: 35px;
+	position: relative;
+	margin: 60px 0px 10px 0px;
+	font-family: 'Verlag', sans-serif;
+	white-space:nowrap;
+	font-weight: 100;
+	text-transform: capitalize;
+    font-size: 24px;
+    color: #FFF;
+    transition: color 200ms ease;
+}
+
+.breadcrumb p {
+    width: auto;
+    height: 24px;
+    display: inline-block;
+	margin-left: 50px;
+	background-color: #222;
+    padding: 6px 10px 5px 10px;
+}
+
+.breadcrumb .small {
+    font-size: 20px;
+    height: 20px;
+    text-transform: capitalize;
+}
+
+.breadcrumb.ng-hide {
+	display: block !important;
+}
+
+.navigation li {
+	width: auto;
+	font-size: 42px;
+    text-transform: uppercase;
+	text-align: left;
+	margin: 8px 0px 0px 0px;
+}
+
+.navigation .subhead {
+	font-size: 14px;
+	margin: 0px;
+}
+
+.navigation .subhead p {
+	padding: 0px 10px 5px 10px;
+}
+
+.navigation p {
+	display: inline-block;
+	padding: 5px 10px 3px 10px;
+	background-color: #222;
+}
+
+.back {
+	display: block;
+	white-space:nowrap;
+	font-family: 'Verlag', sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+    text-transform: uppercase;
+	text-align: left;
+	margin: 40px 0px 0px 0px;
+	list-style: none;
+}
+
+.back a {
+	width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.back p {
+	width: auto;
+	height: 12px;
+	display: inline-block;
+	margin-left: 50px;
+	padding: 5px 10px 6px 10px;
+	background-color: #222;
+}

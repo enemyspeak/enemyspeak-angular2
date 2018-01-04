@@ -1,10 +1,18 @@
 import { Routes } from '@angular/router';
 
-import { HomeComponent } from './home/home.component';
+import { ListComponent } from './list/list.component';
 
 export const rootRouterConfig: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
- 
+  { path: '',  component: ListComponent, pathMatch: 'full'},
+  { path: '',  component: ListComponent, 
+    children: [
+      { path: ':project', component: ListComponent,
+        // children: [
+        //   { path: '', component: RepoDetailComponent },
+        //   { path: ':repo', component: RepoDetailComponent }
+        // ]
+      }
+    ]
+  }
 ];
 

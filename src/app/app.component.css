@@ -58,6 +58,32 @@
 	background-color: #222;
 }
 
+
+.divider{
+	width: 576px;
+	border: none;
+	border-bottom: 1px solid #222;
+	margin: 50px 0px 0px 50px;
+}
+
+.contact {
+	width: 675px;
+	margin: 30px 0px 0px 50px;
+	display: inline-block;
+}
+
+.contact li {
+	font-size: 12px;
+    text-transform: uppercase;
+	text-align: left;
+	display: inline-block;
+	padding: 5px 10px 6px 10px;
+	margin: 8px 4px 0px 0px;
+	background-color: #222;
+	list-style: none;
+}
+
+
 .copyright {
 	width: 100%;
   	margin: 20px 0px 40px 0px;
