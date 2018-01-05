@@ -10,7 +10,7 @@
 		</ul>
 	</div>
 
-	<div ng-hide="( back == '' )" class="back">
+	<div [hidden]="!back" class="back">
 		<a href="{{back}}"><p><i class="fi-arrow-left"></i>Back</p></a>
 	</div>	
 </div>

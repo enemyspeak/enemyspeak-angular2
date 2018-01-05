@@ -45,3 +45,5 @@ p {
 	font-family: 'Verlag', sans-serif;
     font-weight: 100;
 }
+
+[hidden] { display: none !important;}
