@@ -1,16 +1,15 @@
 import {Component} from '@angular/core';
-import { ListItem, } from './list';
-import { HOMEITEMS, } from './homeItems';
-import { GAMEITEMS, } from './gameItems';
+import { ListItem, } from './portfolio';
+import { PORTFOLIOITEMS, } from './portfolioItems';
 import {ActivatedRoute} from '@angular/router';
 
 @Component({
-  selector: 'list',
-  styleUrls: ['./list.component.css'],
-  templateUrl: './list.component.html'
+  selector: 'portfolio',
+  styleUrls: ['./portfolio.component.css'],
+  templateUrl: './portfolio.component.html'
 })
 export class ListComponent {
-  listItems = HOMEITEMS;
+  listItems = PORTFOLIOITEMS;
   project: string;
 
   constructor( private route: ActivatedRoute ) { }

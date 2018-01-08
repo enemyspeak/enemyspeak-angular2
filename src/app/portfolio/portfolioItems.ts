@@ -1,6 +1,6 @@
 import { ListItem, } from './list';
 
-export const HOMEITEMS: ListItem[] = [
+export const PORTFOLIOITEMS: ListItem[] = [
 	{
 		"route":"design/tweet-box",		
 		"id" : "tweet-box",

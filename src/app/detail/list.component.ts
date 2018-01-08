@@ -1,7 +1,6 @@
 import {Component} from '@angular/core';
 import { ListItem, } from './list';
 import { HOMEITEMS, } from './homeItems';
-import { GAMEITEMS, } from './gameItems';
 import {ActivatedRoute} from '@angular/router';
 
 @Component({
