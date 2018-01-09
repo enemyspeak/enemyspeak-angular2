@@ -8,7 +8,7 @@ import {ActivatedRoute} from '@angular/router';
   styleUrls: ['./portfolio.component.css'],
   templateUrl: './portfolio.component.html'
 })
-export class ListComponent {
+export class PortfolioComponent {
   listItems = PORTFOLIOITEMS;
   project: string;
 

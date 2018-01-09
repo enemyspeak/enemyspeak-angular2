@@ -1,4 +1,4 @@
-import { ListItem, } from './list';
+import { ListItem, } from './portfolio';
 
 export const PORTFOLIOITEMS: ListItem[] = [
 	{

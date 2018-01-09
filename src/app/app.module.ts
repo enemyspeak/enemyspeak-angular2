@@ -8,12 +8,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 
 import { ListComponent } from './list/list.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { DetailComponent } from './detail/detail.component';
+
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListComponent,
+    PortfolioComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,
