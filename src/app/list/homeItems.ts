@@ -2,6 +2,17 @@ import { ListItem, } from './list';
 
 export const HOMEITEMS: ListItem[] = [
 	{
+		"route":"design/squawk-chat",		
+		"id" : "squawk-chat",
+		"name" : "Squawk Chat",
+		"description" : "Chat Service. Ember, Node",
+		"keyColor" : "#717171",
+		"headerColor":"#fff",
+		"year" : "2018",
+		"imageURL" : "/img/level-glitch1.jpg",
+		"hierarchy" : 1
+	},
+	{
 		"route":"design/tweet-box",		
 		"id" : "tweet-box",
 		"name" : "Tweet Box",

@@ -39,6 +39,10 @@
 	display: block !important;
 }
 
+.navigation {
+	margin-left: 50px;
+}
+
 .navigation li {
 	width: auto;
 	font-size: 42px;
